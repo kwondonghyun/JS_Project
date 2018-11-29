@@ -6,7 +6,7 @@
   <script src="./main.js"></script>
 </head>
 
-<body>
+<body class="body">
   <div>
     <div class="month">
       <ul>
@@ -16,18 +16,21 @@
       </ul>
     </div>
 
-    <ul class="weekdays">
-      <li>일</li>
-      <li>월</li>
-      <li>화</li>
-      <li>수</li>
-      <li>목</li>
-      <li>금</li>
-      <li>토</li>
-    </ul>
+
   </div>
-  <table id="calendar" align="center" >
-    <script src="./main.js">
+  <table class="days" border = "0px">
+    <tr>
+      <td>일</td>
+      <td>월</td>
+      <td>화</td>
+      <td>수</td>
+      <td>목</td>
+      <td>금</td>
+      <td>토</td>
+    </tr>
+  </table>
+  <table id="calendar" align="center" border = "0px">
+    <script>
       showC();
     </script>
   </table>
