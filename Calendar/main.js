@@ -44,7 +44,7 @@ function showC() {//현재 달 달력 만들기
         }
         /*오늘의 날짜에 색칠하기*/
         if (today.getFullYear() == date.getFullYear() && today.getMonth() == date.getMonth() && i == date.getDate()) {
-            cell.bgColor = "#1abc9c;";
+            cell.bgColor = "#1abc9c";
         }
     }
 }
